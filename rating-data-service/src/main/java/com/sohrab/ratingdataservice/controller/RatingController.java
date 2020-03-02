@@ -24,7 +24,7 @@ public class RatingController {
 		
 		List<Rating> ratings = Arrays.asList(
 				new Rating("1234", 4), 
-				new Rating("1234", 4)
+				new Rating("1235", 4)
 			);
 		
 		UserRating userRating=new UserRating();
