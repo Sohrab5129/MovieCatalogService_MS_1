@@ -23,8 +23,8 @@ public class RatingController {
 	public UserRating getUserRating(@PathVariable("userId") String userId) {
 		
 		List<Rating> ratings = Arrays.asList(
-				new Rating("1234", 4), 
-				new Rating("1235", 4)
+				new Rating("550", 4), 
+				new Rating("100", 4)
 			);
 		
 		UserRating userRating=new UserRating();
